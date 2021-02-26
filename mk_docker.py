@@ -276,7 +276,8 @@ def time_it(func):
         try:
             return func(*args, **kwargs)
         finally:
-            LOGGER.info("%r took %ss", func.func_name, time.time() - before)
+            LOGGER.info("niraj")
+#             LOGGER.info("%r took %ss", func.func_name, time.time() - before)
 
     return wrapped
 
